@@ -13,38 +13,38 @@
         <div class="content">
             <div class="calc">
                 <div class="txt">
-                    <div class="t">0</div>
-                    <div id="eq" class="eq">0</div>
+                    <div id="t" class="t">0</div>
+                    <div id="e" class="eq">0</div>
                 </div>
  
                 <div>
                     <table class="btn">
                         <tr class="s"><!--MAked the header-->
-                            <td class="ctrl">(</td>
-                            <td class="ctrl">)</td>
-                            <td class="num">0</td>
-                            <td onclick="hi()" class="ctrl">AC</td>
+                            <td onclick="calc.inpt('(')" class="ctrl">(</td>
+                            <td onclick="calc.inpt(')')" class="ctrl">)</td>
+                            <td onclick="calc.inpt('0')" class="num">0</td>
+                            <td onclick="calc.clear()" class="ctrl">AC</td>
                         </tr>
                     
                         <tr class="s">
-                            <td class="num">7</td>
-                            <td class="num">8</td>
-                            <td class="num">9</td>
-                            <td class="ctrl">-</td>
+                            <td onclick="calc.inpt('7')" class="num">7</td>
+                            <td onclick="calc.inpt('8')" class="num">8</td>
+                            <td onclick="calc.inpt('9')" class="num">9</td>
+                            <td onclick="calc.inpt('-')" class="ctrl">-</td>
                         </tr>
                     
                         <tr class="s">
-                            <td class="num">4</td>
-                            <td class="num">5</td>
-                            <td class="num">6</td>
-                            <td class="ctrl">+</td>
+                            <td onclick="calc.inpt('4')" class="num">4</td>
+                            <td onclick="calc.inpt('5')" class="num">5</td>
+                            <td onclick="calc.inpt('6')" class="num">6</td>
+                            <td onclick="calc.inpt('+')" class="ctrl">+</td>
                         </tr>
 
                         <tr class="s">
-                            <td class="num">1</td>
-                            <td class="num">2</td>
-                            <td class="num">3</td>
-                            <td class="eq1">=</td>
+                            <td onclick="calc.inpt('1')" class="num">1</td>
+                            <td onclick="calc.inpt('2')" class="num">2</td>
+                            <td onclick="calc.inpt('3')" class="num">3</td>
+                            <td onclick="" class="eq1">=</td>
                         </tr>
                     </table>
 
