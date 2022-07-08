@@ -15,7 +15,14 @@ const calc = {
          
     },
 
+    equal : function (){
+        out.innerHTML = parseFloat(eval(txt.innerHTML));
+    }
 } 
 
 let out = document.getElementById('e'),
     txt = document.getElementById('t');
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}

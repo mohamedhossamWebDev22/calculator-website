@@ -12,6 +12,9 @@ body{
     margin-top: 8%;
 
     border-radius: 50px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
 }
 
 .txt{
